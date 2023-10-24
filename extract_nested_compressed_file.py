@@ -141,7 +141,7 @@ class CompressedFileInfo(FileInfo):
         self.to_path = ''
         self.encrypted = False
         self.is_error = False
-        self.error_message = ''
+        self.msg = ''
 
 
 class CompressedFile():
